@@ -20,12 +20,28 @@
 
 ---
 
-## 1번과제 
+## 1번 과제 
+
+![tetris_original](https://user-images.githubusercontent.com/83005178/166621778-b1911e08-9bda-4b34-9ad7-37bf64ac5e89.png)
+
+`테트리스`  
+<br>
+<br>
+<br>
+
+![puyo_tetris](https://user-images.githubusercontent.com/83005178/166621789-ee85ba84-b098-409d-82bc-6eb7603cc913.jpg)
+
+`뿌요뿌요 테트리스`  
+<br>
+<br>
+
+프로토타입은 기본적인 테트리스의 구현에 초점을 맞출 예정입니다.  
+이후 버전업을 진행하면서, UI&UX 부터 멀티기능 등 구현할 수 있는 기능을 점차적으로 업데이트 할 예정입니다.
 
 ---
 <br>
 
-## 2번과제 
+## 2번 과제 
 
 <br>
 
@@ -62,7 +78,7 @@
 
 ---
 
-## 2번과제에서 어떤 것들을 탐구하나요?
+## 어떤 것들을 탐구하나요?
 
 ### 이미지 분류
 
@@ -70,37 +86,68 @@
 
 ### CNN계열 -> VIT 까지의 흐름
 
-lenet -cnn 으로 숫자분류
-
+* **lenet**  
+cnn 으로 숫자분류
 ![lenet](https://user-images.githubusercontent.com/83005178/166613918-ff64d687-0d3f-4aaa-9908-ff478f1ef3c4.jpg)
 
-alexnet 이미지넷에 cnn 시도
+* **alexnet**  
+이미지넷에 cnn 시도
 
 ![alexnet](https://user-images.githubusercontent.com/83005178/166613947-98361f5b-f1d1-40e6-92d0-5706cd9a0d65.png)
 
-vggnet - 커널 사이즈를 작게, 깊은 모델일수록 성능 향상
+* **vggnet**  
+커널 사이즈를 작게, 깊은 모델일수록 성능 향상
 
 ![vggnet](https://user-images.githubusercontent.com/83005178/166614031-5e8038cc-3ba1-43cb-86a4-ed329ac8544e.png)
 
 
-resnet - 더 깊은 모델을 만드는 방법 제안, 기존의 DNN 모델들이 단순히 layer을 많이 쌓으면 더 성능이 좋아지는 줄 알았지만
-
-그 레이어가 깊어지는 과정에서 vanishing gradient problem등 오히려 학습이 더 안되는 문제가 있었고 이를 해결하는게 shortcut을 도입한 resnet이다
-
+* **resnet**  
+더 깊은 모델을 만드는 방법 제안, 기존의 `DNN` 모델들이 단순히 `layer`을 많이 쌓으면 더 성능이 좋아지는 줄 알았지만, 그 레이어가 깊어지는 과정에서 `vanishing gradient problem`등 오히려 학습이 더 안되는 문제가 있었고 이를 해결하는 `shortcut`을 도입
 ![resnet](https://user-images.githubusercontent.com/83005178/166614084-cd2e9f24-d260-415d-b96d-ef867d9b5510.jpg)
 
-ViT - 자연어에서 사용한 transformer를 이미지 분류에 도입. 거대데이터셋으로 학습시켜 좋은 성능
+* **ViT** 
+자연어에서 사용한 `transformer`를 이미지 분류에 도입. 거대 데이터셋으로 학습시켜 좋은 성능
 
 ![vit](https://user-images.githubusercontent.com/83005178/166614403-ae716878-6744-4f5f-9dd5-c35fc1400174.png)
+
+* **전체적 흐름**  
+
+<img width="865" alt="image trend" src="https://user-images.githubusercontent.com/83005178/166636299-4a83339f-7f62-49c0-96f3-e219367f0019.PNG">
+
+<br>
+<br>
+
+<img width="835" alt="image trend2" src="https://user-images.githubusercontent.com/83005178/166636326-7c83d5aa-cd09-42bf-a173-c4a84ca843d1.PNG">
 
 
 ### 발전의 배경과 기반 지식
 
-convolution  
-layer  
-shortcut  
-gradient  
-**VGP(vanishing gradient problem)**  
+* Convolution  
+* Layer  
+* Kernel
+* Shortcut  
+* Gradient  
+* Dimension Reduction
+* Seq2Seq
+* **VGP(vanishing gradient problem)**  
+
+등등 중요한 개념이 너무나 많기때문에 함께 논문을 찾아 읽으며 학습할 예정
+
+
+### 실습을 동반한 이해
+
+* **Kaggle**  
+![kaggle](https://user-images.githubusercontent.com/83005178/166636066-0d2c1e1e-0418-4445-8483-574a2789cfa7.png)
+
+`Kaggle` 은 데이터 분석 경진 대회를 주최하는 플랫폼입니다.  
+저희 조는 Kaggle의 Competition에 참여하면서 학습하고자 합니다.  
+
+* **GPU Server**  
+이외에도 필요하다면 GPU Server까지 사용할 예정입니다.
+
+<img width="600" alt="gpu server" src="https://user-images.githubusercontent.com/83005178/166636726-06bee795-be7d-4319-bba9-eb6751f0f841.png">
 
 ---
+## 3번 과제
 
+`git` 과 연계하여 학습할 예정입니다.
