@@ -36,6 +36,7 @@
 <br>
 
 프로토타입은 기본적인 테트리스의 구현에 초점을 맞출 예정입니다.  
+
 이후 버전업을 진행하면서, UI&UX 부터 멀티기능 등 구현할 수 있는 기능을 점차적으로 업데이트 할 예정입니다.
 
 ---
@@ -87,11 +88,11 @@
 ### CNN계열 -> VIT 까지의 흐름
 
 * **lenet**  
-cnn 으로 숫자분류
+`cnn` 으로 숫자분류
 ![lenet](https://user-images.githubusercontent.com/83005178/166613918-ff64d687-0d3f-4aaa-9908-ff478f1ef3c4.jpg)
 
 * **alexnet**  
-이미지넷에 cnn 시도
+이미지넷에 `cnn` 시도
 
 ![alexnet](https://user-images.githubusercontent.com/83005178/166613947-98361f5b-f1d1-40e6-92d0-5706cd9a0d65.png)
 
@@ -102,7 +103,7 @@ cnn 으로 숫자분류
 
 
 * **resnet**  
-더 깊은 모델을 만드는 방법 제안, 기존의 `DNN` 모델들이 단순히 `layer`을 많이 쌓으면 더 성능이 좋아지는 줄 알았지만, 그 레이어가 깊어지는 과정에서 `vanishing gradient problem`등 오히려 학습이 더 안되는 문제가 있었고 이를 해결하는 `shortcut`을 도입
+더 깊은 모델을 만드는 방법 제안, 기존의 모델들은 단순히 `layer`을 많이 쌓으면 더 성능이 좋아지는 줄 알았지만, 그 레이어가 깊어지는 과정에서 `VGP(vanishing gradient problem)`등 오히려 학습이 더 안되는 문제가 발생하였고, 이를 해결하는 `shortcut`을 도입
 ![resnet](https://user-images.githubusercontent.com/83005178/166614084-cd2e9f24-d260-415d-b96d-ef867d9b5510.jpg)
 
 * **ViT** 
@@ -131,7 +132,7 @@ cnn 으로 숫자분류
 * Seq2Seq
 * **VGP(vanishing gradient problem)**  
 
-등등 중요한 개념이 너무나 많기때문에 함께 논문을 찾아 읽으며 학습할 예정
+등등 중요한 개념들을 함께 논문을 찾아 읽으며 학습할 예정입니다.
 
 
 ### 실습을 동반한 이해
@@ -143,11 +144,23 @@ cnn 으로 숫자분류
 저희 조는 Kaggle의 Competition에 참여하면서 학습하고자 합니다.  
 
 * **GPU Server**  
-이외에도 필요하다면 GPU Server까지 사용할 예정입니다.
+이외에도 필요하다면 GPU Server까지 활용할 예정입니다.
 
 <img width="600" alt="gpu server" src="https://user-images.githubusercontent.com/83005178/166636726-06bee795-be7d-4319-bba9-eb6751f0f841.png">
 
 ---
-## 3번 과제
+## 3번 과제  
 
-`git` 과 연계하여 학습할 예정입니다.
+<br>
+
+`git` 과 연계하여 학습할 예정입니다.  
+
+<br>
+
+![repo](https://user-images.githubusercontent.com/83005178/166639599-3b6de91e-eef4-4594-9d55-9cba8691e479.PNG)
+
+저희 조는 `Private Repository`를 스터디의 용도로 운영중입니다.  
+
+협업 Repository를 운영하고 기여하는 경험을 조원들과 공유하고 있습니다.  
+각 과제별 Repository의 책임자를 다르게 하여 조원 모두가 운영하는 경험을 공평하게 겪을 수 있도록 하였습니다.  
+또한 대면 스터디 이외에도, `github` 의 `Issues`와 `Pull Request` 를 통해서 서로의 코드를 리뷰하고, 매주 알고리즘과 자료구조에 관한 스터디를 진행하고 있습니다.
